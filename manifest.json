@@ -1,0 +1,20 @@
+{
+ "manifest_version":2,
+ "name":"Timezone Finder",
+ "version":"2.0.1",
+ "description":"This is a simple extension that display current time",
+ "icons":{
+     "512":"icon_time.png"
+
+ },
+ "browser_action":{
+    "default_popup":"popup.html",
+     "default_icon":"icon_time.png",
+     "default_title":"TimeZone"
+ },
+ "permissions":["activeTabs","scripts"],
+ "background":{
+     "scripts":["main.js"]
+ }
+}
+
